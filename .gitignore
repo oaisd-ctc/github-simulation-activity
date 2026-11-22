@@ -8,50 +8,50 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
+scripting/[Dd]ebug/
+scripting/[Dd]ebugPublic/
+scripting/[Rr]elease/
+scripting/[Rr]eleases/
+scripting/x64/
+scripting/x86/
+scripting/[Ww][Ii][Nn]32/
+scripting/[Aa][Rr][Mm]/
+scripting/[Aa][Rr][Mm]64/
+scripting/bld/
+scripting/[Bb]in/
+scripting/[Oo]bj/
+scripting/[Ll]og/
+scripting/[Ll]ogs/
 
 # .NET Core
-project.lock.json
-project.fragment.lock.json
-artifacts/
+scripting/project.lock.json
+scripting/project.fragment.lock.json
+scripting/artifacts/
 
 # ASP.NET Scaffolding
-ScaffoldingReadMe.txt
+scripting/ScaffoldingReadMe.txt
 
 # NuGet Packages
-*.nupkg
+scripting/*.nupkg
 # NuGet Symbol Packages
-*.snupkg
+scripting/*.snupkg
 
 # dotenv environment variables file
-.env
+scripting/.env
 
 # Others
-~$*
-*~
-CodeCoverage/
+scripting/~$*
+scripting/*~
+scripting/CodeCoverage/
 
 # MSBuild Binary and Structured Log
-*.binlog
+scripting/*.binlog
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+scripting/[Tt]est[Rr]esult*/
+scripting/[Bb]uild[Ll]og.*
 
 # NUnit
-*.VisualState.xml
-TestResult.xml
-nunit-*.xml
+scripting/*.VisualState.xml
+scripting/TestResult.xml
+scripting/nunit-*.xml
